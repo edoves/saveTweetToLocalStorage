@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Save Tweets Into Storage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+
+    <div id="content">
+        <div class="container">
+            <h1 class="mb-5">Save your tweet to Local Storage</h1>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="tweet">Write your tweets :</label>
+                    <form action="#" id="form" class="mb-5">
+                        <div class="form-group">
+                            <label for="tweet"></label>
+                            <textarea class="form-control" id="tweet" rows="3"></textarea>
+                            <input type="submit" class="btn btn-primary btn-lg btn-block mt-3" value="Save Tweet">
+                        </div>
+                    </form>
+                    <hr class="line mb-5">
+                    <h2>Your tweets listed below :</h2>
+                    <div id="tweet-list">
+                        <ul class="list-group mt-4"></ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--#contenido-->
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
