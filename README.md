@@ -5,5 +5,5 @@ This app was from Udemy, Lynda, Teamtreehouse learning experience. Is not a real
 
 ## Web App function
 
-This web app does save your tweets on the local storage of your browser. It uses bootstrap framework vanilla java script
+This web app does save your tweets on the localstorage of your browser. It uses bootstrap framework vanilla javascript
 
